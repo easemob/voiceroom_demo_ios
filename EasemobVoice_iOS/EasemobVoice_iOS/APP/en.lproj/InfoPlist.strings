@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  EasemobVoice_iOS
+
+  Created by 朱继超 on 2022/9/20.
+  
+*/
+CFBundleDisplayName = "EaseChatRoom";
+NSMicrophoneUsageDescription = "Ease Chat Demo want to  mic access,when you enter voice chat room";

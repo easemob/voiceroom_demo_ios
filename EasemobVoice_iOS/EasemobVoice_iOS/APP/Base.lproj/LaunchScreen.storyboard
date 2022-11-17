@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_screen" translatesAutoresizingMaskIntoConstraints="NO" id="4jr-Hr-pzM">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roomList" translatesAutoresizingMaskIntoConstraints="NO" id="nhm-3g-E2K">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Easechat_icon" translatesAutoresizingMaskIntoConstraints="NO" id="p1o-Lb-xvh">
+                                <rect key="frame" x="121" y="236" width="148" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="148" id="MML-pk-5jT"/>
+                                    <constraint firstAttribute="height" constant="148" id="Z27-ci-BfZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="easemobchatroom" translatesAutoresizingMaskIntoConstraints="NO" id="aCE-kc-sev">
+                                <rect key="frame" x="75" y="404" width="240" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="OGz-r3-KlT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by Easemob" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62P-I0-cz1">
+                                <rect key="frame" x="48" y="760" width="294" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ZYc-Av-7P4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4jr-Hr-pzM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0Qv-cB-PFg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aCE-kc-sev" secondAttribute="trailing" constant="75" id="6QO-D0-Afb"/>
+                            <constraint firstAttribute="bottom" secondItem="4jr-Hr-pzM" secondAttribute="bottom" id="9jU-Os-HyP"/>
+                            <constraint firstItem="4jr-Hr-pzM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DM0-V3-hTi"/>
+                            <constraint firstItem="aCE-kc-sev" firstAttribute="top" secondItem="p1o-Lb-xvh" secondAttribute="bottom" constant="20" id="E5Y-Bm-PhB"/>
+                            <constraint firstItem="nhm-3g-E2K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FvL-gq-QFb"/>
+                            <constraint firstItem="nhm-3g-E2K" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="MoZ-bA-pNF"/>
+                            <constraint firstItem="4jr-Hr-pzM" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="NoO-j0-oIq"/>
+                            <constraint firstItem="p1o-Lb-xvh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Thx-j5-1LI"/>
+                            <constraint firstItem="aCE-kc-sev" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="XwV-FX-MAZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="62P-I0-cz1" secondAttribute="bottom" constant="29" id="bdL-RB-MVX"/>
+                            <constraint firstItem="4jr-Hr-pzM" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bqf-06-VSy"/>
+                            <constraint firstItem="p1o-Lb-xvh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="189" id="gJT-D1-Bzn"/>
+                            <constraint firstAttribute="bottom" secondItem="nhm-3g-E2K" secondAttribute="bottom" id="gow-Cy-fmg"/>
+                            <constraint firstItem="4jr-Hr-pzM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h16-LW-E3C"/>
+                            <constraint firstItem="nhm-3g-E2K" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="h7b-IC-VwR"/>
+                            <constraint firstItem="4jr-Hr-pzM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hJi-1u-Il1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="62P-I0-cz1" secondAttribute="trailing" constant="48" id="rek-fc-4fy"/>
+                            <constraint firstAttribute="bottom" secondItem="4jr-Hr-pzM" secondAttribute="bottom" id="zRY-oc-F4w"/>
+                            <constraint firstItem="62P-I0-cz1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="zhm-jQ-Dpo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.307692307692307" y="374.64454976303318"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Easechat_icon" width="148" height="148"/>
+        <image name="easemobchatroom" width="225.33332824707031" height="19.666666030883789"/>
+        <image name="roomList" width="375" height="812"/>
+        <image name="splash_screen" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,1243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004B7F3D0CCBA69057D721F1 /* Pods_EasemobVoice_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4C281D7C3E3993B0F34848 /* Pods_EasemobVoice_iOS.framework */; };
+		0527762528F6BB7700F11006 /* VoiceRoomEndLiveAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0527762428F6BB7700F11006 /* VoiceRoomEndLiveAlert.swift */; };
+		053F14B328D5B65600350D7A /* VoiceRoomDisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F14B228D5B65600350D7A /* VoiceRoomDisclaimerView.swift */; };
+		053F14B528D5B9AD00350D7A /* VRDisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F14B428D5B9AD00350D7A /* VRDisclaimerViewController.swift */; };
+		054AF7AE28D16864004C60A3 /* VRAllRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054AF7AD28D16864004C60A3 /* VRAllRoomsViewController.swift */; };
+		054AF7B028D16876004C60A3 /* VRNormalRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054AF7AF28D16876004C60A3 /* VRNormalRoomsViewController.swift */; };
+		054AF7B228D16892004C60A3 /* VRSpatialSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054AF7B128D16892004C60A3 /* VRSpatialSoundViewController.swift */; };
+		05632152291C906500F854B5 /* VoiceRoomViewController+Mic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05632151291C906500F854B5 /* VoiceRoomViewController+Mic.swift */; };
+		05632194291D019500F854B5 /* VoiceRoomChatBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563218C291D019500F854B5 /* VoiceRoomChatBarCell.swift */; };
+		05632195291D019500F854B5 /* VoiceRoomChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563218D291D019500F854B5 /* VoiceRoomChatCell.swift */; };
+		05632196291D019500F854B5 /* VoiceRoomInviteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563218E291D019500F854B5 /* VoiceRoomInviteCell.swift */; };
+		05632197291D019500F854B5 /* VoiceRoomGiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563218F291D019500F854B5 /* VoiceRoomGiftCell.swift */; };
+		05632198291D019500F854B5 /* VoiceRoomAudienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05632190291D019500F854B5 /* VoiceRoomAudienceCell.swift */; };
+		05632199291D019500F854B5 /* VoiceRoomGifterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05632191291D019500F854B5 /* VoiceRoomGifterCell.swift */; };
+		0563219A291D019500F854B5 /* VoiceRoomSendGiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05632192291D019500F854B5 /* VoiceRoomSendGiftCell.swift */; };
+		0563219B291D019500F854B5 /* VoiceRoomApplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05632193291D019500F854B5 /* VoiceRoomApplyCell.swift */; };
+		056321A1291D01B700F854B5 /* VRSoundEffectsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563219C291D01B700F854B5 /* VRSoundEffectsCell.swift */; };
+		056321A2291D01B700F854B5 /* VRRoomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563219D291D01B700F854B5 /* VRRoomListCell.swift */; };
+		056321A3291D01B700F854B5 /* HorizontalCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563219E291D01B700F854B5 /* HorizontalCardCell.swift */; };
+		056321A4291D01B700F854B5 /* VRCreateRoomCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563219F291D01B700F854B5 /* VRCreateRoomCardCell.swift */; };
+		056321A5291D01B700F854B5 /* VRRoomMenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321A0291D01B700F854B5 /* VRRoomMenuBarCell.swift */; };
+		056321B2291D01D400F854B5 /* VRSoundTypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321A6291D01D400F854B5 /* VRSoundTypeCard.swift */; };
+		056321B3291D01D400F854B5 /* VRRoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321A7291D01D400F854B5 /* VRRoomListView.swift */; };
+		056321B4291D01D400F854B5 /* HorizontalCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321A8291D01D400F854B5 /* HorizontalCardsView.swift */; };
+		056321B5291D01D400F854B5 /* VRCreateRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321A9291D01D400F854B5 /* VRCreateRoomView.swift */; };
+		056321B6291D01D400F854B5 /* VRRoomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321AA291D01D400F854B5 /* VRRoomMenuBar.swift */; };
+		056321B7291D01D400F854B5 /* VREmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321AB291D01D400F854B5 /* VREmptyView.swift */; };
+		056321B8291D01D400F854B5 /* HorizontalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321AC291D01D400F854B5 /* HorizontalCardView.swift */; };
+		056321B9291D01D400F854B5 /* VRUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321AD291D01D400F854B5 /* VRUserInfoView.swift */; };
+		056321BA291D01D400F854B5 /* BaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321AE291D01D400F854B5 /* BaseNavigationView.swift */; };
+		056321BB291D01D400F854B5 /* VRSoundEffectsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321AF291D01D400F854B5 /* VRSoundEffectsList.swift */; };
+		056321BC291D01D400F854B5 /* VRRoomCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321B0291D01D400F854B5 /* VRRoomCreateView.swift */; };
+		056321BD291D01D400F854B5 /* VRCreateRoomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321B1291D01D400F854B5 /* VRCreateRoomInputView.swift */; };
+		056321C3291D01E800F854B5 /* VRCreateRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321BE291D01E800F854B5 /* VRCreateRoomViewController.swift */; };
+		056321C4291D01E800F854B5 /* VRSoundEffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321BF291D01E800F854B5 /* VRSoundEffectsViewController.swift */; };
+		056321C5291D01E800F854B5 /* VRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321C0291D01E800F854B5 /* VRBaseViewController.swift */; };
+		056321C6291D01E800F854B5 /* VRRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321C1291D01E800F854B5 /* VRRoomsViewController.swift */; };
+		056321C7291D01E800F854B5 /* VRUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321C2291D01E800F854B5 /* VRUserProfileViewController.swift */; };
+		056321CC291D026200F854B5 /* VoiceRoomIMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056321CB291D026200F854B5 /* VoiceRoomIMManager.swift */; };
+		056321CD291D050B00F854B5 /* VRRoomAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05688C2F28D86CB800B39C22 /* VRRoomAvatarCell.swift */; };
+		05688C2828D857B000B39C22 /* rocket.svga in Resources */ = {isa = PBXBuildFile; fileRef = 05688C2728D857B000B39C22 /* rocket.svga */; };
+		05688C3C28D86F2400B39C22 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05688C3E28D86F2400B39C22 /* Localizable.strings */; };
+		056A2DBD28E2D4700030811A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056A2DBB28E2D4700030811A /* InfoPlist.strings */; };
+		05ACF8E4291B3E8200EE2B92 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ACF8E3291B3E8200EE2B92 /* LoginViewController.swift */; };
+		05ACF8EB291B8F6F00EE2B92 /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ACF8EA291B8F6F00EE2B92 /* GCDTimer.swift */; };
+		05BC75BB28F55D8F00DD8E3B /* VoiceRoomViewController+IM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BC75BA28F55D8F00DD8E3B /* VoiceRoomViewController+IM.swift */; };
+		05BC75BD28F55E5E00DD8E3B /* VoiceRoomViewController+ChatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BC75BC28F55E5E00DD8E3B /* VoiceRoomViewController+ChatBar.swift */; };
+		05D2CBB728F4120800E9D7DB /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D2CBB628F4120800E9D7DB /* Throttle.swift */; };
+		05D8C3D528D068D100820391 /* VoiceRoomAudiencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C3D128D068D100820391 /* VoiceRoomAudiencesViewController.swift */; };
+		05D8C3D628D068D100820391 /* VoiceRoomGiftersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C3D228D068D100820391 /* VoiceRoomGiftersViewController.swift */; };
+		05D8C3D728D068D100820391 /* VoiceRoomApplyUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C3D328D068D100820391 /* VoiceRoomApplyUsersViewController.swift */; };
+		05D8C3D828D068D100820391 /* VoiceRoomInviteUsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C3D428D068D100820391 /* VoiceRoomInviteUsersController.swift */; };
+		05D8C3E228D0697900820391 /* RobotoNembersVF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05D8C3E128D0697900820391 /* RobotoNembersVF.ttf */; };
+		05D8C3E528D0699100820391 /* VoiceRoomBusinessRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C3E328D0699100820391 /* VoiceRoomBusinessRequest.swift */; };
+		05D8C3E628D0699100820391 /* VoiceRoomBusinessApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C3E428D0699100820391 /* VoiceRoomBusinessApi.swift */; };
+		05D8C44228D06E4E00820391 /* PopTip+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43628D06E4E00820391 /* PopTip+Draw.swift */; };
+		05D8C44328D06E4E00820391 /* VoiceRoomPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43728D06E4E00820391 /* VoiceRoomPopView.swift */; };
+		05D8C44428D06E4E00820391 /* VoiceRoomPraiseEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43828D06E4E00820391 /* VoiceRoomPraiseEmitterView.swift */; };
+		05D8C44528D06E4E00820391 /* VoiceRoomSwitchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43928D06E4E00820391 /* VoiceRoomSwitchBar.swift */; };
+		05D8C44628D06E4E00820391 /* VoiceRoomPageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43A28D06E4E00820391 /* VoiceRoomPageContainer.swift */; };
+		05D8C44728D06E4E00820391 /* VoiceRoomApplyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43B28D06E4E00820391 /* VoiceRoomApplyAlert.swift */; };
+		05D8C44828D06E4E00820391 /* PopTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43C28D06E4E00820391 /* PopTip.swift */; };
+		05D8C44928D06E4E00820391 /* PopTip+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43D28D06E4E00820391 /* PopTip+Transitions.swift */; };
+		05D8C44A28D06E4E00820391 /* VoiceRoomEmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43E28D06E4E00820391 /* VoiceRoomEmojiListView.swift */; };
+		05D8C44B28D06E4E00820391 /* VoiceRoomGiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C43F28D06E4E00820391 /* VoiceRoomGiftsView.swift */; };
+		05D8C44C28D06E4E00820391 /* VoiceRoomInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C44028D06E4E00820391 /* VoiceRoomInputBar.swift */; };
+		05D8C44D28D06E4E00820391 /* VoiceRoomUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C44128D06E4E00820391 /* VoiceRoomUserView.swift */; };
+		05D8C45328D06EA000820391 /* VRVerifyCodeNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C44E28D06EA000820391 /* VRVerifyCodeNumberView.swift */; };
+		05D8C45428D06EA000820391 /* VoiceRoomPasswordAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C44F28D06EA000820391 /* VoiceRoomPasswordAlert.swift */; };
+		05D8C45528D06EA000820391 /* VRVerifyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C45028D06EA000820391 /* VRVerifyCodeView.swift */; };
+		05D8C45628D06EA000820391 /* VRVerifyCodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C45128D06EA000820391 /* VRVerifyCodeTextView.swift */; };
+		05D8C45728D06EA000820391 /* VoiceRoomEmojiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8C45228D06EA000820391 /* VoiceRoomEmojiManager.swift */; };
+		E30E5B4028FD766E00F94C71 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E5B3F28FD766E00F94C71 /* String + Extension.swift */; };
+		E346371F28D84DA700026F85 /* VRAvatarChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346371E28D84DA700026F85 /* VRAvatarChooseViewController.swift */; };
+		E346372328D84E5E00026F85 /* VoiceRoomAudiencesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346372228D84E5E00026F85 /* VoiceRoomAudiencesEntity.swift */; };
+		E346372728D9AE8500026F85 /* VMConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346372628D9AE8500026F85 /* VMConfirmView.swift */; };
+		E3682BEE28F2B09D00DA21FD /* VMSoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3682BED28F2B09D00DA21FD /* VMSoundView.swift */; };
+		E3682BF028F54E6D00DA21FD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3682BEF28F54E6D00DA21FD /* UIButton+Extension.swift */; };
+		E36BE0E228C5E74500270D52 /* AgoraSceneConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0E128C5E74500270D52 /* AgoraSceneConfig.swift */; };
+		E36BE0FE28C5ECD500270D52 /* UIButtonLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0E728C5ECD500270D52 /* UIButtonLayoutExtension.swift */; };
+		E36BE0FF28C5ECD500270D52 /* ResourceBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0E828C5ECD500270D52 /* ResourceBundleExtension.swift */; };
+		E36BE10028C5ECD500270D52 /* UIViewToastExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0E928C5ECD500270D52 /* UIViewToastExtension.swift */; };
+		E36BE10128C5ECD500270D52 /* UIImageBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0EA28C5ECD500270D52 /* UIImageBundleExtension.swift */; };
+		E36BE10228C5ECD500270D52 /* VRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0EC28C5ECD500270D52 /* VRUser.swift */; };
+		E36BE10328C5ECD500270D52 /* VRRoomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0ED28C5ECD500270D52 /* VRRoomEntity.swift */; };
+		E36BE10428C5ECD500270D52 /* VRRoomMenuBarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0EE28C5ECD500270D52 /* VRRoomMenuBarEntity.swift */; };
+		E36BE10528C5ECD500270D52 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0F028C5ECD500270D52 /* PresentationController.swift */; };
+		E36BE10628C5ECD500270D52 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0F128C5ECD500270D52 /* LanguageManager.swift */; };
+		E36BE10828C5ECD500270D52 /* UIViewController+Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0F328C5ECD500270D52 /* UIViewController+Presentation.swift */; };
+		E36BE10928C5ECD500270D52 /* PresentationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0F528C5ECD500270D52 /* PresentationAnimation.swift */; };
+		E36BE10A28C5ECD500270D52 /* FlipHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0F628C5ECD500270D52 /* FlipHorizontalAnimation.swift */; };
+		E36BE10B28C5ECD500270D52 /* CrossZoomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0F728C5ECD500270D52 /* CrossZoomAnimation.swift */; };
+		E36BE10C28C5ECD500270D52 /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0F828C5ECD500270D52 /* CrossDissolveAnimation.swift */; };
+		E36BE10D28C5ECD500270D52 /* PresentedViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0F928C5ECD500270D52 /* PresentedViewType.swift */; };
+		E36BE10E28C5ECD500270D52 /* PresentationEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0FA28C5ECD500270D52 /* PresentationEnums.swift */; };
+		E36BE11028C5ECD500270D52 /* PresentationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0FC28C5ECD500270D52 /* PresentationSegue.swift */; };
+		E36BE11128C5ECD500270D52 /* Notification+Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE0FD28C5ECD500270D52 /* Notification+Presentation.swift */; };
+		E36BE11428C5EE7E00270D52 /* VoiceRoomChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE11228C5EE7E00270D52 /* VoiceRoomChatModel.swift */; };
+		E36BE11528C5EE7E00270D52 /* VoiceRoomGiftEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE11328C5EE7E00270D52 /* VoiceRoomGiftEntity.swift */; };
+		E36BE11D28C5EF1700270D52 /* VoiceRoomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE11C28C5EF1700270D52 /* VoiceRoomAlertViewController.swift */; };
+		E36BE12228C5EF2A00270D52 /* VoiceRoomAlertContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE11E28C5EF2A00270D52 /* VoiceRoomAlertContainer.swift */; };
+		E36BE12328C5EF2A00270D52 /* VoiceRoomChatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE11F28C5EF2A00270D52 /* VoiceRoomChatBar.swift */; };
+		E36BE12428C5EF2A00270D52 /* VoiceRoomGiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE12028C5EF2A00270D52 /* VoiceRoomGiftView.swift */; };
+		E36BE12528C5EF2A00270D52 /* VoiceRoomChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE12128C5EF2A00270D52 /* VoiceRoomChatView.swift */; };
+		E36BE15928C5F49600270D52 /* ASRTCKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE15828C5F49600270D52 /* ASRTCKit.swift */; };
+		E36BE16728C605F100270D52 /* VoiceRoomRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE16628C605F100270D52 /* VoiceRoomRequest.swift */; };
+		E36BE16F28C6EACA00270D52 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE16E28C6EACA00270D52 /* LaunchViewController.swift */; };
+		E36BE18428C7242300270D52 /* VoiceRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE18328C7242300270D52 /* VoiceRoomViewController.swift */; };
+		E36BE18628C7305400270D52 /* VMNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE18528C7305400270D52 /* VMNoticeView.swift */; };
+		E36BE18828C8390000270D52 /* VMUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE18728C8390000270D52 /* VMUserListView.swift */; };
+		E36BE18A28C83CF100270D52 /* VMUpstageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE18928C83CF100270D52 /* VMUpstageView.swift */; };
+		E36BE18C28C8426000270D52 /* VMManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE18B28C8426000270D52 /* VMManagerView.swift */; };
+		E36BE18E28C8737200270D52 /* VMAudioSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE18D28C8737200270D52 /* VMAudioSettingView.swift */; };
+		E36BE19028C876FC00270D52 /* VMSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE18F28C876FC00270D52 /* VMSwitchTableViewCell.swift */; };
+		E36BE19228C8771100270D52 /* VMSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE19128C8771100270D52 /* VMSliderTableViewCell.swift */; };
+		E36BE19428C8778600270D52 /* VMNorSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE19328C8778600270D52 /* VMNorSetTableViewCell.swift */; };
+		E36BE19628C8780A00270D52 /* VMANISSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE19528C8780A00270D52 /* VMANISSetTableViewCell.swift */; };
+		E36BE19828C8781B00270D52 /* VMANISSUPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE19728C8781B00270D52 /* VMANISSUPTableViewCell.swift */; };
+		E36BE19D28C9C47900270D52 /* VMPresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE19C28C9C47900270D52 /* VMPresentView.swift */; };
+		E36BE19F28C9E54A00270D52 /* VMEQSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE19E28C9E54A00270D52 /* VMEQSettingView.swift */; };
+		E36BE1A128CAE4A300270D52 /* VMSoundSelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BE1A028CAE4A300270D52 /* VMSoundSelTableViewCell.swift */; };
+		E39B688828C5948C0083D0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B688728C5948C0083D0F9 /* AppDelegate.swift */; };
+		E39B689128C5948D0083D0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39B689028C5948D0083D0F9 /* Assets.xcassets */; };
+		E39B689428C5948D0083D0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39B689228C5948D0083D0F9 /* LaunchScreen.storyboard */; };
+		E39B68B628C5A41E0083D0F9 /* AgoraChatRoomBaseAlienCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68AE28C5A41E0083D0F9 /* AgoraChatRoomBaseAlienCollectionViewCell.swift */; };
+		E39B68B728C5A41E0083D0F9 /* AgoraMicVolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68AF28C5A41E0083D0F9 /* AgoraMicVolView.swift */; };
+		E39B68B828C5A41E0083D0F9 /* AgoraChatRoomBaseUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68B028C5A41E0083D0F9 /* AgoraChatRoomBaseUserCollectionViewCell.swift */; };
+		E39B68B928C5A41E0083D0F9 /* AgoraChatRoom3DRtcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68B128C5A41E0083D0F9 /* AgoraChatRoom3DRtcView.swift */; };
+		E39B68BA28C5A41E0083D0F9 /* AgoraChatRoom3DUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68B228C5A41E0083D0F9 /* AgoraChatRoom3DUserCollectionViewCell.swift */; };
+		E39B68BB28C5A41E0083D0F9 /* AgoraChatRoomBaseRtcUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68B328C5A41E0083D0F9 /* AgoraChatRoomBaseRtcUserView.swift */; };
+		E39B68BC28C5A41E0083D0F9 /* AgoraChatRoom3DMoveUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68B428C5A41E0083D0F9 /* AgoraChatRoom3DMoveUserView.swift */; };
+		E39B68BD28C5A41E0083D0F9 /* AgoraChatRoomNormalRtcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68B528C5A41E0083D0F9 /* AgoraChatRoomNormalRtcView.swift */; };
+		E39B68C028C5A4770083D0F9 /* AgoraChatRoomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68BF28C5A4770083D0F9 /* AgoraChatRoomHeaderView.swift */; };
+		E39B68C328C5A4D30083D0F9 /* arrow.svga in Resources */ = {isa = PBXBuildFile; fileRef = E39B68C228C5A4D30083D0F9 /* arrow.svga */; };
+		E39B68C628C5A5200083D0F9 /* SwiftyFitSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B68C528C5A5200083D0F9 /* SwiftyFitSize.swift */; };
+		E3C7109628F8053A00C9091B /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C7109528F8053A00C9091B /* UIColor+extension.swift */; };
+		E3E8F4F028FFDB5500B97821 /* VoiceRoomHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8F4EF28FFDB5500B97821 /* VoiceRoomHelpViewController.swift */; };
+		E3E8F56D2907CD9600B97821 /* VMMuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8F56C2907CD9600B97821 /* VMMuteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3101F4F28D065E400979E75 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0527762428F6BB7700F11006 /* VoiceRoomEndLiveAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomEndLiveAlert.swift; sourceTree = "<group>"; };
+		053F14B228D5B65600350D7A /* VoiceRoomDisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomDisclaimerView.swift; sourceTree = "<group>"; };
+		053F14B428D5B9AD00350D7A /* VRDisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRDisclaimerViewController.swift; sourceTree = "<group>"; };
+		054AF7AD28D16864004C60A3 /* VRAllRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRAllRoomsViewController.swift; sourceTree = "<group>"; };
+		054AF7AF28D16876004C60A3 /* VRNormalRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRNormalRoomsViewController.swift; sourceTree = "<group>"; };
+		054AF7B128D16892004C60A3 /* VRSpatialSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRSpatialSoundViewController.swift; sourceTree = "<group>"; };
+		05632151291C906500F854B5 /* VoiceRoomViewController+Mic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VoiceRoomViewController+Mic.swift"; sourceTree = "<group>"; };
+		0563218C291D019500F854B5 /* VoiceRoomChatBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomChatBarCell.swift; path = EasemobVoice_iOS/Business/VoiceChat2.0/Cells/VoiceRoomChatBarCell.swift; sourceTree = SOURCE_ROOT; };
+		0563218D291D019500F854B5 /* VoiceRoomChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomChatCell.swift; path = EasemobVoice_iOS/Business/VoiceChat2.0/Cells/VoiceRoomChatCell.swift; sourceTree = SOURCE_ROOT; };
+		0563218E291D019500F854B5 /* VoiceRoomInviteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomInviteCell.swift; path = EasemobVoice_iOS/Business/VoiceChat2.0/Cells/VoiceRoomInviteCell.swift; sourceTree = SOURCE_ROOT; };
+		0563218F291D019500F854B5 /* VoiceRoomGiftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomGiftCell.swift; path = EasemobVoice_iOS/Business/VoiceChat2.0/Cells/VoiceRoomGiftCell.swift; sourceTree = SOURCE_ROOT; };
+		05632190291D019500F854B5 /* VoiceRoomAudienceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomAudienceCell.swift; path = EasemobVoice_iOS/Business/VoiceChat2.0/Cells/VoiceRoomAudienceCell.swift; sourceTree = SOURCE_ROOT; };
+		05632191291D019500F854B5 /* VoiceRoomGifterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomGifterCell.swift; path = EasemobVoice_iOS/Business/VoiceChat2.0/Cells/VoiceRoomGifterCell.swift; sourceTree = SOURCE_ROOT; };
+		05632192291D019500F854B5 /* VoiceRoomSendGiftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomSendGiftCell.swift; path = EasemobVoice_iOS/Business/VoiceChat2.0/Cells/VoiceRoomSendGiftCell.swift; sourceTree = SOURCE_ROOT; };
+		05632193291D019500F854B5 /* VoiceRoomApplyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomApplyCell.swift; path = EasemobVoice_iOS/Business/VoiceChat2.0/Cells/VoiceRoomApplyCell.swift; sourceTree = SOURCE_ROOT; };
+		0563219C291D01B700F854B5 /* VRSoundEffectsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRSoundEffectsCell.swift; path = EasemobVoice_iOS/Business/RoomService/Cells/VRSoundEffectsCell.swift; sourceTree = SOURCE_ROOT; };
+		0563219D291D01B700F854B5 /* VRRoomListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRRoomListCell.swift; path = EasemobVoice_iOS/Business/RoomService/Cells/VRRoomListCell.swift; sourceTree = SOURCE_ROOT; };
+		0563219E291D01B700F854B5 /* HorizontalCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalCardCell.swift; path = EasemobVoice_iOS/Business/RoomService/Cells/HorizontalCardCell.swift; sourceTree = SOURCE_ROOT; };
+		0563219F291D01B700F854B5 /* VRCreateRoomCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCreateRoomCardCell.swift; path = EasemobVoice_iOS/Business/RoomService/Cells/VRCreateRoomCardCell.swift; sourceTree = SOURCE_ROOT; };
+		056321A0291D01B700F854B5 /* VRRoomMenuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRRoomMenuBarCell.swift; path = EasemobVoice_iOS/Business/RoomService/Cells/VRRoomMenuBarCell.swift; sourceTree = SOURCE_ROOT; };
+		056321A6291D01D400F854B5 /* VRSoundTypeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRSoundTypeCard.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VRSoundTypeCard.swift; sourceTree = SOURCE_ROOT; };
+		056321A7291D01D400F854B5 /* VRRoomListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRRoomListView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VRRoomListView.swift; sourceTree = SOURCE_ROOT; };
+		056321A8291D01D400F854B5 /* HorizontalCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalCardsView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/HorizontalCardsView.swift; sourceTree = SOURCE_ROOT; };
+		056321A9291D01D400F854B5 /* VRCreateRoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCreateRoomView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VRCreateRoomView.swift; sourceTree = SOURCE_ROOT; };
+		056321AA291D01D400F854B5 /* VRRoomMenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRRoomMenuBar.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VRRoomMenuBar.swift; sourceTree = SOURCE_ROOT; };
+		056321AB291D01D400F854B5 /* VREmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VREmptyView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VREmptyView.swift; sourceTree = SOURCE_ROOT; };
+		056321AC291D01D400F854B5 /* HorizontalCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalCardView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/HorizontalCardView.swift; sourceTree = SOURCE_ROOT; };
+		056321AD291D01D400F854B5 /* VRUserInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRUserInfoView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VRUserInfoView.swift; sourceTree = SOURCE_ROOT; };
+		056321AE291D01D400F854B5 /* BaseNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseNavigationView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/BaseNavigationView.swift; sourceTree = SOURCE_ROOT; };
+		056321AF291D01D400F854B5 /* VRSoundEffectsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRSoundEffectsList.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VRSoundEffectsList.swift; sourceTree = SOURCE_ROOT; };
+		056321B0291D01D400F854B5 /* VRRoomCreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRRoomCreateView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VRRoomCreateView.swift; sourceTree = SOURCE_ROOT; };
+		056321B1291D01D400F854B5 /* VRCreateRoomInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCreateRoomInputView.swift; path = EasemobVoice_iOS/Business/RoomService/Views/VRCreateRoomInputView.swift; sourceTree = SOURCE_ROOT; };
+		056321BE291D01E800F854B5 /* VRCreateRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRCreateRoomViewController.swift; path = EasemobVoice_iOS/Business/RoomService/Controllers/VRCreateRoomViewController.swift; sourceTree = SOURCE_ROOT; };
+		056321BF291D01E800F854B5 /* VRSoundEffectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRSoundEffectsViewController.swift; path = EasemobVoice_iOS/Business/RoomService/Controllers/VRSoundEffectsViewController.swift; sourceTree = SOURCE_ROOT; };
+		056321C0291D01E800F854B5 /* VRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRBaseViewController.swift; path = EasemobVoice_iOS/Business/RoomService/Controllers/VRBaseViewController.swift; sourceTree = SOURCE_ROOT; };
+		056321C1291D01E800F854B5 /* VRRoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRRoomsViewController.swift; path = EasemobVoice_iOS/Business/RoomService/Controllers/VRRoomsViewController.swift; sourceTree = SOURCE_ROOT; };
+		056321C2291D01E800F854B5 /* VRUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VRUserProfileViewController.swift; path = EasemobVoice_iOS/Business/RoomService/Controllers/VRUserProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		056321CB291D026200F854B5 /* VoiceRoomIMManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomIMManager.swift; sourceTree = "<group>"; };
+		05688C2728D857B000B39C22 /* rocket.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = rocket.svga; sourceTree = "<group>"; };
+		05688C2B28D86C3400B39C22 /* VoiceRoomAudiencesEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomAudiencesEntity.swift; sourceTree = "<group>"; };
+		05688C2D28D86C5C00B39C22 /* VRAvatarChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRAvatarChooseViewController.swift; sourceTree = "<group>"; };
+		05688C2F28D86CB800B39C22 /* VRRoomAvatarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRRoomAvatarCell.swift; sourceTree = "<group>"; };
+		05688C3928D86F1300B39C22 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		05688C3D28D86F2400B39C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		05688C3F28D86F2800B39C22 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		056A2DBC28E2D4700030811A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		056A2DBE28E2D47A0030811A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		05ACF8E3291B3E8200EE2B92 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		05ACF8EA291B8F6F00EE2B92 /* GCDTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDTimer.swift; sourceTree = "<group>"; };
+		05BC75BA28F55D8F00DD8E3B /* VoiceRoomViewController+IM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VoiceRoomViewController+IM.swift"; sourceTree = "<group>"; };
+		05BC75BC28F55E5E00DD8E3B /* VoiceRoomViewController+ChatBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VoiceRoomViewController+ChatBar.swift"; sourceTree = "<group>"; };
+		05D2CBB628F4120800E9D7DB /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
+		05D8C3D128D068D100820391 /* VoiceRoomAudiencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomAudiencesViewController.swift; sourceTree = "<group>"; };
+		05D8C3D228D068D100820391 /* VoiceRoomGiftersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomGiftersViewController.swift; sourceTree = "<group>"; };
+		05D8C3D328D068D100820391 /* VoiceRoomApplyUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomApplyUsersViewController.swift; sourceTree = "<group>"; };
+		05D8C3D428D068D100820391 /* VoiceRoomInviteUsersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomInviteUsersController.swift; sourceTree = "<group>"; };
+		05D8C3E128D0697900820391 /* RobotoNembersVF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoNembersVF.ttf; sourceTree = "<group>"; };
+		05D8C3E328D0699100820391 /* VoiceRoomBusinessRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomBusinessRequest.swift; sourceTree = "<group>"; };
+		05D8C3E428D0699100820391 /* VoiceRoomBusinessApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomBusinessApi.swift; sourceTree = "<group>"; };
+		05D8C43628D06E4E00820391 /* PopTip+Draw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PopTip+Draw.swift"; sourceTree = "<group>"; };
+		05D8C43728D06E4E00820391 /* VoiceRoomPopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomPopView.swift; sourceTree = "<group>"; };
+		05D8C43828D06E4E00820391 /* VoiceRoomPraiseEmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomPraiseEmitterView.swift; sourceTree = "<group>"; };
+		05D8C43928D06E4E00820391 /* VoiceRoomSwitchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomSwitchBar.swift; sourceTree = "<group>"; };
+		05D8C43A28D06E4E00820391 /* VoiceRoomPageContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomPageContainer.swift; sourceTree = "<group>"; };
+		05D8C43B28D06E4E00820391 /* VoiceRoomApplyAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomApplyAlert.swift; sourceTree = "<group>"; };
+		05D8C43C28D06E4E00820391 /* PopTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTip.swift; sourceTree = "<group>"; };
+		05D8C43D28D06E4E00820391 /* PopTip+Transitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PopTip+Transitions.swift"; sourceTree = "<group>"; };
+		05D8C43E28D06E4E00820391 /* VoiceRoomEmojiListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomEmojiListView.swift; sourceTree = "<group>"; };
+		05D8C43F28D06E4E00820391 /* VoiceRoomGiftsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomGiftsView.swift; sourceTree = "<group>"; };
+		05D8C44028D06E4E00820391 /* VoiceRoomInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomInputBar.swift; sourceTree = "<group>"; };
+		05D8C44128D06E4E00820391 /* VoiceRoomUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomUserView.swift; sourceTree = "<group>"; };
+		05D8C44E28D06EA000820391 /* VRVerifyCodeNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeNumberView.swift; sourceTree = "<group>"; };
+		05D8C44F28D06EA000820391 /* VoiceRoomPasswordAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomPasswordAlert.swift; sourceTree = "<group>"; };
+		05D8C45028D06EA000820391 /* VRVerifyCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeView.swift; sourceTree = "<group>"; };
+		05D8C45128D06EA000820391 /* VRVerifyCodeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRVerifyCodeTextView.swift; sourceTree = "<group>"; };
+		05D8C45228D06EA000820391 /* VoiceRoomEmojiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomEmojiManager.swift; sourceTree = "<group>"; };
+		1EB37DBD2D4136E6E32EC97B /* Pods-AgoraScene_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraScene_iOS.debug.xcconfig"; path = "Target Support Files/Pods-AgoraScene_iOS/Pods-AgoraScene_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		588069FEBC094D7D96375C8B /* Pods-EasemobVoice_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasemobVoice_iOS.release.xcconfig"; path = "Target Support Files/Pods-EasemobVoice_iOS/Pods-EasemobVoice_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9A4C281D7C3E3993B0F34848 /* Pods_EasemobVoice_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasemobVoice_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC63D49D288722B3FA14A117 /* Pods-AgoraScene_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraScene_iOS.release.xcconfig"; path = "Target Support Files/Pods-AgoraScene_iOS/Pods-AgoraScene_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		D579540B42DE5E5B832012EB /* Pods-EasemobVoice_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasemobVoice_iOS.debug.xcconfig"; path = "Target Support Files/Pods-EasemobVoice_iOS/Pods-EasemobVoice_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E30E5B3F28FD766E00F94C71 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		E346371E28D84DA700026F85 /* VRAvatarChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRAvatarChooseViewController.swift; sourceTree = "<group>"; };
+		E346372228D84E5E00026F85 /* VoiceRoomAudiencesEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomAudiencesEntity.swift; sourceTree = "<group>"; };
+		E346372628D9AE8500026F85 /* VMConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMConfirmView.swift; sourceTree = "<group>"; };
+		E3682BED28F2B09D00DA21FD /* VMSoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMSoundView.swift; sourceTree = "<group>"; };
+		E3682BEF28F54E6D00DA21FD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		E36BE0E128C5E74500270D52 /* AgoraSceneConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraSceneConfig.swift; sourceTree = "<group>"; };
+		E36BE0E728C5ECD500270D52 /* UIButtonLayoutExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonLayoutExtension.swift; sourceTree = "<group>"; };
+		E36BE0E828C5ECD500270D52 /* ResourceBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceBundleExtension.swift; sourceTree = "<group>"; };
+		E36BE0E928C5ECD500270D52 /* UIViewToastExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewToastExtension.swift; sourceTree = "<group>"; };
+		E36BE0EA28C5ECD500270D52 /* UIImageBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageBundleExtension.swift; sourceTree = "<group>"; };
+		E36BE0EC28C5ECD500270D52 /* VRUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRUser.swift; sourceTree = "<group>"; };
+		E36BE0ED28C5ECD500270D52 /* VRRoomEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRRoomEntity.swift; sourceTree = "<group>"; };
+		E36BE0EE28C5ECD500270D52 /* VRRoomMenuBarEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRRoomMenuBarEntity.swift; sourceTree = "<group>"; };
+		E36BE0F028C5ECD500270D52 /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		E36BE0F128C5ECD500270D52 /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		E36BE0F328C5ECD500270D52 /* UIViewController+Presentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Presentation.swift"; sourceTree = "<group>"; };
+		E36BE0F528C5ECD500270D52 /* PresentationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationAnimation.swift; sourceTree = "<group>"; };
+		E36BE0F628C5ECD500270D52 /* FlipHorizontalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipHorizontalAnimation.swift; sourceTree = "<group>"; };
+		E36BE0F728C5ECD500270D52 /* CrossZoomAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossZoomAnimation.swift; sourceTree = "<group>"; };
+		E36BE0F828C5ECD500270D52 /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		E36BE0F928C5ECD500270D52 /* PresentedViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentedViewType.swift; sourceTree = "<group>"; };
+		E36BE0FA28C5ECD500270D52 /* PresentationEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationEnums.swift; sourceTree = "<group>"; };
+		E36BE0FC28C5ECD500270D52 /* PresentationSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationSegue.swift; sourceTree = "<group>"; };
+		E36BE0FD28C5ECD500270D52 /* Notification+Presentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Presentation.swift"; sourceTree = "<group>"; };
+		E36BE11228C5EE7E00270D52 /* VoiceRoomChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomChatModel.swift; sourceTree = "<group>"; };
+		E36BE11328C5EE7E00270D52 /* VoiceRoomGiftEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomGiftEntity.swift; sourceTree = "<group>"; };
+		E36BE11C28C5EF1700270D52 /* VoiceRoomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomAlertViewController.swift; sourceTree = "<group>"; };
+		E36BE11E28C5EF2A00270D52 /* VoiceRoomAlertContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomAlertContainer.swift; sourceTree = "<group>"; };
+		E36BE11F28C5EF2A00270D52 /* VoiceRoomChatBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomChatBar.swift; sourceTree = "<group>"; };
+		E36BE12028C5EF2A00270D52 /* VoiceRoomGiftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomGiftView.swift; sourceTree = "<group>"; };
+		E36BE12128C5EF2A00270D52 /* VoiceRoomChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceRoomChatView.swift; sourceTree = "<group>"; };
+		E36BE15828C5F49600270D52 /* ASRTCKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRTCKit.swift; sourceTree = "<group>"; };
+		E36BE16628C605F100270D52 /* VoiceRoomRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomRequest.swift; sourceTree = "<group>"; };
+		E36BE16E28C6EACA00270D52 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		E36BE18328C7242300270D52 /* VoiceRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomViewController.swift; sourceTree = "<group>"; };
+		E36BE18528C7305400270D52 /* VMNoticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMNoticeView.swift; sourceTree = "<group>"; };
+		E36BE18728C8390000270D52 /* VMUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMUserListView.swift; sourceTree = "<group>"; };
+		E36BE18928C83CF100270D52 /* VMUpstageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMUpstageView.swift; sourceTree = "<group>"; };
+		E36BE18B28C8426000270D52 /* VMManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMManagerView.swift; sourceTree = "<group>"; };
+		E36BE18D28C8737200270D52 /* VMAudioSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMAudioSettingView.swift; sourceTree = "<group>"; };
+		E36BE18F28C876FC00270D52 /* VMSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		E36BE19128C8771100270D52 /* VMSliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMSliderTableViewCell.swift; sourceTree = "<group>"; };
+		E36BE19328C8778600270D52 /* VMNorSetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMNorSetTableViewCell.swift; sourceTree = "<group>"; };
+		E36BE19528C8780A00270D52 /* VMANISSetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMANISSetTableViewCell.swift; sourceTree = "<group>"; };
+		E36BE19728C8781B00270D52 /* VMANISSUPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMANISSUPTableViewCell.swift; sourceTree = "<group>"; };
+		E36BE19C28C9C47900270D52 /* VMPresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMPresentView.swift; sourceTree = "<group>"; };
+		E36BE19E28C9E54A00270D52 /* VMEQSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMEQSettingView.swift; sourceTree = "<group>"; };
+		E36BE1A028CAE4A300270D52 /* VMSoundSelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMSoundSelTableViewCell.swift; sourceTree = "<group>"; };
+		E39B688428C5948C0083D0F9 /* EasemobVoice_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasemobVoice_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39B688728C5948C0083D0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E39B689028C5948D0083D0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E39B689328C5948D0083D0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E39B689528C5948D0083D0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39B68AE28C5A41E0083D0F9 /* AgoraChatRoomBaseAlienCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraChatRoomBaseAlienCollectionViewCell.swift; sourceTree = "<group>"; };
+		E39B68AF28C5A41E0083D0F9 /* AgoraMicVolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraMicVolView.swift; sourceTree = "<group>"; };
+		E39B68B028C5A41E0083D0F9 /* AgoraChatRoomBaseUserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraChatRoomBaseUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		E39B68B128C5A41E0083D0F9 /* AgoraChatRoom3DRtcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraChatRoom3DRtcView.swift; sourceTree = "<group>"; };
+		E39B68B228C5A41E0083D0F9 /* AgoraChatRoom3DUserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraChatRoom3DUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		E39B68B328C5A41E0083D0F9 /* AgoraChatRoomBaseRtcUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraChatRoomBaseRtcUserView.swift; sourceTree = "<group>"; };
+		E39B68B428C5A41E0083D0F9 /* AgoraChatRoom3DMoveUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraChatRoom3DMoveUserView.swift; sourceTree = "<group>"; };
+		E39B68B528C5A41E0083D0F9 /* AgoraChatRoomNormalRtcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraChatRoomNormalRtcView.swift; sourceTree = "<group>"; };
+		E39B68BF28C5A4770083D0F9 /* AgoraChatRoomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraChatRoomHeaderView.swift; sourceTree = "<group>"; };
+		E39B68C228C5A4D30083D0F9 /* arrow.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = arrow.svga; sourceTree = "<group>"; };
+		E39B68C428C5A4EA0083D0F9 /* 一个箭头.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = "一个箭头.svga"; sourceTree = "<group>"; };
+		E39B68C528C5A5200083D0F9 /* SwiftyFitSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyFitSize.swift; sourceTree = "<group>"; };
+		E3C7109528F8053A00C9091B /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		E3E8F4EF28FFDB5500B97821 /* VoiceRoomHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomHelpViewController.swift; sourceTree = "<group>"; };
+		E3E8F56C2907CD9600B97821 /* VMMuteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMMuteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E39B688128C5948C0083D0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004B7F3D0CCBA69057D721F1 /* Pods_EasemobVoice_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056321CA291D026200F854B5 /* VoiceRoomIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				056321CB291D026200F854B5 /* VoiceRoomIMManager.swift */,
+			);
+			name = VoiceRoomIMKit;
+			path = EasemobVoice_iOS/Compoment/VoiceRoomIMKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		05D8C3E728D06B4500820391 /* Third party library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third party library";
+			sourceTree = "<group>";
+		};
+		05D8C40728D06DA800820391 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				056321C0291D01E800F854B5 /* VRBaseViewController.swift */,
+				056321BE291D01E800F854B5 /* VRCreateRoomViewController.swift */,
+				056321C1291D01E800F854B5 /* VRRoomsViewController.swift */,
+				056321BF291D01E800F854B5 /* VRSoundEffectsViewController.swift */,
+				056321C2291D01E800F854B5 /* VRUserProfileViewController.swift */,
+				E346371E28D84DA700026F85 /* VRAvatarChooseViewController.swift */,
+				054AF7AD28D16864004C60A3 /* VRAllRoomsViewController.swift */,
+				054AF7AF28D16876004C60A3 /* VRNormalRoomsViewController.swift */,
+				054AF7B128D16892004C60A3 /* VRSpatialSoundViewController.swift */,
+				053F14B428D5B9AD00350D7A /* VRDisclaimerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		05D8C40828D06DCC00820391 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				056321AE291D01D400F854B5 /* BaseNavigationView.swift */,
+				056321A8291D01D400F854B5 /* HorizontalCardsView.swift */,
+				056321AC291D01D400F854B5 /* HorizontalCardView.swift */,
+				056321B1291D01D400F854B5 /* VRCreateRoomInputView.swift */,
+				056321A9291D01D400F854B5 /* VRCreateRoomView.swift */,
+				056321AB291D01D400F854B5 /* VREmptyView.swift */,
+				056321B0291D01D400F854B5 /* VRRoomCreateView.swift */,
+				056321A7291D01D400F854B5 /* VRRoomListView.swift */,
+				056321AA291D01D400F854B5 /* VRRoomMenuBar.swift */,
+				056321AF291D01D400F854B5 /* VRSoundEffectsList.swift */,
+				056321A6291D01D400F854B5 /* VRSoundTypeCard.swift */,
+				056321AD291D01D400F854B5 /* VRUserInfoView.swift */,
+				053F14B228D5B65600350D7A /* VoiceRoomDisclaimerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05D8C40928D06DD400820391 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0563219E291D01B700F854B5 /* HorizontalCardCell.swift */,
+				0563219F291D01B700F854B5 /* VRCreateRoomCardCell.swift */,
+				0563219D291D01B700F854B5 /* VRRoomListCell.swift */,
+				056321A0291D01B700F854B5 /* VRRoomMenuBarCell.swift */,
+				0563219C291D01B700F854B5 /* VRSoundEffectsCell.swift */,
+				05688C2F28D86CB800B39C22 /* VRRoomAvatarCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		188EEA5554A9EDC0394899AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A4C281D7C3E3993B0F34848 /* Pods_EasemobVoice_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E346372428D8709E00026F85 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				05688C2B28D86C3400B39C22 /* VoiceRoomAudiencesEntity.swift */,
+				05688C2D28D86C5C00B39C22 /* VRAvatarChooseViewController.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		E36BE0E328C5EA7300270D52 /* AgoraRtcKit */ = {
+			isa = PBXGroup;
+			children = (
+				E36BE15828C5F49600270D52 /* ASRTCKit.swift */,
+			);
+			path = AgoraRtcKit;
+			sourceTree = "<group>";
+		};
+		E36BE0E628C5ECD500270D52 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E36BE0E728C5ECD500270D52 /* UIButtonLayoutExtension.swift */,
+				E36BE0E828C5ECD500270D52 /* ResourceBundleExtension.swift */,
+				E36BE0E928C5ECD500270D52 /* UIViewToastExtension.swift */,
+				E36BE0EA28C5ECD500270D52 /* UIImageBundleExtension.swift */,
+				E3682BEF28F54E6D00DA21FD /* UIButton+Extension.swift */,
+				E3C7109528F8053A00C9091B /* UIColor+extension.swift */,
+				E30E5B3F28FD766E00F94C71 /* String + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E36BE0EB28C5ECD500270D52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E36BE0EC28C5ECD500270D52 /* VRUser.swift */,
+				E36BE0ED28C5ECD500270D52 /* VRRoomEntity.swift */,
+				E36BE0EE28C5ECD500270D52 /* VRRoomMenuBarEntity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E36BE0EF28C5ECD500270D52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				05D8C45228D06EA000820391 /* VoiceRoomEmojiManager.swift */,
+				05D8C44F28D06EA000820391 /* VoiceRoomPasswordAlert.swift */,
+				05D8C44E28D06EA000820391 /* VRVerifyCodeNumberView.swift */,
+				05D8C45128D06EA000820391 /* VRVerifyCodeTextView.swift */,
+				05D8C43A28D06E4E00820391 /* VoiceRoomPageContainer.swift */,
+				05D8C45028D06EA000820391 /* VRVerifyCodeView.swift */,
+				E36BE0F028C5ECD500270D52 /* PresentationController.swift */,
+				E36BE0F128C5ECD500270D52 /* LanguageManager.swift */,
+				E36BE0F328C5ECD500270D52 /* UIViewController+Presentation.swift */,
+				E36BE0F428C5ECD500270D52 /* Animation */,
+				E36BE0F928C5ECD500270D52 /* PresentedViewType.swift */,
+				E36BE0FA28C5ECD500270D52 /* PresentationEnums.swift */,
+				E36BE0FC28C5ECD500270D52 /* PresentationSegue.swift */,
+				E36BE0FD28C5ECD500270D52 /* Notification+Presentation.swift */,
+				05D2CBB628F4120800E9D7DB /* Throttle.swift */,
+				05ACF8EA291B8F6F00EE2B92 /* GCDTimer.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E36BE0F428C5ECD500270D52 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E36BE0F528C5ECD500270D52 /* PresentationAnimation.swift */,
+				E36BE0F628C5ECD500270D52 /* FlipHorizontalAnimation.swift */,
+				E36BE0F728C5ECD500270D52 /* CrossZoomAnimation.swift */,
+				E36BE0F828C5ECD500270D52 /* CrossDissolveAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		E36BE16D28C6EA9F00270D52 /* LoginService */ = {
+			isa = PBXGroup;
+			children = (
+				E36BE16E28C6EACA00270D52 /* LaunchViewController.swift */,
+				05ACF8E3291B3E8200EE2B92 /* LoginViewController.swift */,
+			);
+			path = LoginService;
+			sourceTree = "<group>";
+		};
+		E39B687B28C5948C0083D0F9 = {
+			isa = PBXGroup;
+			children = (
+				E39B688628C5948C0083D0F9 /* EasemobVoice_iOS */,
+				E39B688528C5948C0083D0F9 /* Products */,
+				F1F6608744F40532362EDBC4 /* Pods */,
+				188EEA5554A9EDC0394899AA /* Frameworks */,
+				E346372428D8709E00026F85 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		E39B688528C5948C0083D0F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E39B688428C5948C0083D0F9 /* EasemobVoice_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E39B688628C5948C0083D0F9 /* EasemobVoice_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E39B689B28C5993B0083D0F9 /* APP */,
+				E39B689C28C59BDF0083D0F9 /* Business */,
+				E39B68A528C59BDF0083D0F9 /* Compoment */,
+				E39B68A628C59BDF0083D0F9 /* Common */,
+				E39B689528C5948D0083D0F9 /* Info.plist */,
+			);
+			path = EasemobVoice_iOS;
+			sourceTree = "<group>";
+		};
+		E39B689B28C5993B0083D0F9 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				056A2DBB28E2D4700030811A /* InfoPlist.strings */,
+				E39B688728C5948C0083D0F9 /* AppDelegate.swift */,
+				E39B689028C5948D0083D0F9 /* Assets.xcassets */,
+				E39B689228C5948D0083D0F9 /* LaunchScreen.storyboard */,
+				05688C3E28D86F2400B39C22 /* Localizable.strings */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		E39B689C28C59BDF0083D0F9 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				E36BE16D28C6EA9F00270D52 /* LoginService */,
+				E39B689D28C59BDF0083D0F9 /* VoiceChat2.0 */,
+				E39B68A128C59BDF0083D0F9 /* RoomService */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		E39B689D28C59BDF0083D0F9 /* VoiceChat2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				E39B689E28C59BDF0083D0F9 /* Controller */,
+				E39B689F28C59BDF0083D0F9 /* Model */,
+				E39B68A028C59BDF0083D0F9 /* View */,
+			);
+			path = VoiceChat2.0;
+			sourceTree = "<group>";
+		};
+		E39B689E28C59BDF0083D0F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05D8C3D328D068D100820391 /* VoiceRoomApplyUsersViewController.swift */,
+				05D8C3D128D068D100820391 /* VoiceRoomAudiencesViewController.swift */,
+				05D8C3D228D068D100820391 /* VoiceRoomGiftersViewController.swift */,
+				05D8C3D428D068D100820391 /* VoiceRoomInviteUsersController.swift */,
+				E36BE11C28C5EF1700270D52 /* VoiceRoomAlertViewController.swift */,
+				E36BE18328C7242300270D52 /* VoiceRoomViewController.swift */,
+				05BC75BA28F55D8F00DD8E3B /* VoiceRoomViewController+IM.swift */,
+				05BC75BC28F55E5E00DD8E3B /* VoiceRoomViewController+ChatBar.swift */,
+				05632151291C906500F854B5 /* VoiceRoomViewController+Mic.swift */,
+				E3E8F4EF28FFDB5500B97821 /* VoiceRoomHelpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E39B689F28C59BDF0083D0F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E346372228D84E5E00026F85 /* VoiceRoomAudiencesEntity.swift */,
+				E36BE11228C5EE7E00270D52 /* VoiceRoomChatModel.swift */,
+				E36BE11328C5EE7E00270D52 /* VoiceRoomGiftEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E39B68A028C59BDF0083D0F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05D8C43C28D06E4E00820391 /* PopTip.swift */,
+				05D8C43628D06E4E00820391 /* PopTip+Draw.swift */,
+				05D8C43D28D06E4E00820391 /* PopTip+Transitions.swift */,
+				05D8C43B28D06E4E00820391 /* VoiceRoomApplyAlert.swift */,
+				05D8C43E28D06E4E00820391 /* VoiceRoomEmojiListView.swift */,
+				05D8C43F28D06E4E00820391 /* VoiceRoomGiftsView.swift */,
+				05D8C44028D06E4E00820391 /* VoiceRoomInputBar.swift */,
+				05D8C43728D06E4E00820391 /* VoiceRoomPopView.swift */,
+				05D8C43828D06E4E00820391 /* VoiceRoomPraiseEmitterView.swift */,
+				05632193291D019500F854B5 /* VoiceRoomApplyCell.swift */,
+				05632190291D019500F854B5 /* VoiceRoomAudienceCell.swift */,
+				0563218C291D019500F854B5 /* VoiceRoomChatBarCell.swift */,
+				0563218D291D019500F854B5 /* VoiceRoomChatCell.swift */,
+				0563218F291D019500F854B5 /* VoiceRoomGiftCell.swift */,
+				05632191291D019500F854B5 /* VoiceRoomGifterCell.swift */,
+				0563218E291D019500F854B5 /* VoiceRoomInviteCell.swift */,
+				05632192291D019500F854B5 /* VoiceRoomSendGiftCell.swift */,
+				05D8C43928D06E4E00820391 /* VoiceRoomSwitchBar.swift */,
+				05D8C44128D06E4E00820391 /* VoiceRoomUserView.swift */,
+				E36BE11E28C5EF2A00270D52 /* VoiceRoomAlertContainer.swift */,
+				E36BE11F28C5EF2A00270D52 /* VoiceRoomChatBar.swift */,
+				E36BE12128C5EF2A00270D52 /* VoiceRoomChatView.swift */,
+				E36BE12028C5EF2A00270D52 /* VoiceRoomGiftView.swift */,
+				E36BE18528C7305400270D52 /* VMNoticeView.swift */,
+				E36BE18728C8390000270D52 /* VMUserListView.swift */,
+				E36BE18928C83CF100270D52 /* VMUpstageView.swift */,
+				E36BE18B28C8426000270D52 /* VMManagerView.swift */,
+				E36BE18D28C8737200270D52 /* VMAudioSettingView.swift */,
+				E36BE18F28C876FC00270D52 /* VMSwitchTableViewCell.swift */,
+				E36BE19128C8771100270D52 /* VMSliderTableViewCell.swift */,
+				E36BE19328C8778600270D52 /* VMNorSetTableViewCell.swift */,
+				E36BE19528C8780A00270D52 /* VMANISSetTableViewCell.swift */,
+				E36BE19728C8781B00270D52 /* VMANISSUPTableViewCell.swift */,
+				E36BE1A028CAE4A300270D52 /* VMSoundSelTableViewCell.swift */,
+				E3E8F56C2907CD9600B97821 /* VMMuteView.swift */,
+				E36BE19C28C9C47900270D52 /* VMPresentView.swift */,
+				E36BE19E28C9E54A00270D52 /* VMEQSettingView.swift */,
+				E346372628D9AE8500026F85 /* VMConfirmView.swift */,
+				E3682BED28F2B09D00DA21FD /* VMSoundView.swift */,
+				0527762428F6BB7700F11006 /* VoiceRoomEndLiveAlert.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E39B68A128C59BDF0083D0F9 /* RoomService */ = {
+			isa = PBXGroup;
+			children = (
+				05D8C40928D06DD400820391 /* Cell */,
+				05D8C40828D06DCC00820391 /* View */,
+				05D8C40728D06DA800820391 /* Controller */,
+			);
+			path = RoomService;
+			sourceTree = "<group>";
+		};
+		E39B68A528C59BDF0083D0F9 /* Compoment */ = {
+			isa = PBXGroup;
+			children = (
+				E36BE0E328C5EA7300270D52 /* AgoraRtcKit */,
+			);
+			path = Compoment;
+			sourceTree = "<group>";
+		};
+		E39B68A628C59BDF0083D0F9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				056321CA291D026200F854B5 /* VoiceRoomIMKit */,
+				05D8C3E728D06B4500820391 /* Third party library */,
+				E36BE0E628C5ECD500270D52 /* Extensions */,
+				E36BE0EB28C5ECD500270D52 /* Models */,
+				E36BE0EF28C5ECD500270D52 /* Utils */,
+				E39B68C128C5A4B40083D0F9 /* Sources */,
+				E39B68A728C59BDF0083D0F9 /* Widget */,
+				E39B68A828C59BDF0083D0F9 /* Config */,
+				E39B68A928C59BDF0083D0F9 /* Network */,
+				E39B68AB28C59BDF0083D0F9 /* BaseUI */,
+				E39B68AC28C59BDF0083D0F9 /* Tool */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E39B68A728C59BDF0083D0F9 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				E39B68BE28C5A45F0083D0F9 /* ChatRoomHeaderView */,
+				E39B68AD28C59F750083D0F9 /* MicPosView */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		E39B68A828C59BDF0083D0F9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E36BE0E128C5E74500270D52 /* AgoraSceneConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E39B68A928C59BDF0083D0F9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				05D8C3E428D0699100820391 /* VoiceRoomBusinessApi.swift */,
+				05D8C3E328D0699100820391 /* VoiceRoomBusinessRequest.swift */,
+				E36BE16628C605F100270D52 /* VoiceRoomRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E39B68AB28C59BDF0083D0F9 /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		E39B68AC28C59BDF0083D0F9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E39B68C528C5A5200083D0F9 /* SwiftyFitSize.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E39B68AD28C59F750083D0F9 /* MicPosView */ = {
+			isa = PBXGroup;
+			children = (
+				E39B68B428C5A41E0083D0F9 /* AgoraChatRoom3DMoveUserView.swift */,
+				E39B68B128C5A41E0083D0F9 /* AgoraChatRoom3DRtcView.swift */,
+				E39B68B228C5A41E0083D0F9 /* AgoraChatRoom3DUserCollectionViewCell.swift */,
+				E39B68AE28C5A41E0083D0F9 /* AgoraChatRoomBaseAlienCollectionViewCell.swift */,
+				E39B68B328C5A41E0083D0F9 /* AgoraChatRoomBaseRtcUserView.swift */,
+				E39B68B028C5A41E0083D0F9 /* AgoraChatRoomBaseUserCollectionViewCell.swift */,
+				E39B68B528C5A41E0083D0F9 /* AgoraChatRoomNormalRtcView.swift */,
+				E39B68AF28C5A41E0083D0F9 /* AgoraMicVolView.swift */,
+			);
+			path = MicPosView;
+			sourceTree = "<group>";
+		};
+		E39B68BE28C5A45F0083D0F9 /* ChatRoomHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				E39B68BF28C5A4770083D0F9 /* AgoraChatRoomHeaderView.swift */,
+			);
+			path = ChatRoomHeaderView;
+			sourceTree = "<group>";
+		};
+		E39B68C128C5A4B40083D0F9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				05688C2728D857B000B39C22 /* rocket.svga */,
+				05D8C3E128D0697900820391 /* RobotoNembersVF.ttf */,
+				E39B68C428C5A4EA0083D0F9 /* 一个箭头.svga */,
+				E39B68C228C5A4D30083D0F9 /* arrow.svga */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F1F6608744F40532362EDBC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EB37DBD2D4136E6E32EC97B /* Pods-AgoraScene_iOS.debug.xcconfig */,
+				AC63D49D288722B3FA14A117 /* Pods-AgoraScene_iOS.release.xcconfig */,
+				D579540B42DE5E5B832012EB /* Pods-EasemobVoice_iOS.debug.xcconfig */,
+				588069FEBC094D7D96375C8B /* Pods-EasemobVoice_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E39B688328C5948C0083D0F9 /* EasemobVoice_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39B689828C5948D0083D0F9 /* Build configuration list for PBXNativeTarget "EasemobVoice_iOS" */;
+			buildPhases = (
+				2ED029508C748CBB94572069 /* [CP] Check Pods Manifest.lock */,
+				E39B688028C5948C0083D0F9 /* Sources */,
+				E39B688128C5948C0083D0F9 /* Frameworks */,
+				E39B688228C5948C0083D0F9 /* Resources */,
+				3F7419CC4E20410EE70FBFF2 /* [CP] Embed Pods Frameworks */,
+				E3101F4F28D065E400979E75 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasemobVoice_iOS;
+			productName = AgoraScene_iOS;
+			productReference = E39B688428C5948C0083D0F9 /* EasemobVoice_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E39B687C28C5948C0083D0F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E39B688328C5948C0083D0F9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E39B687F28C5948C0083D0F9 /* Build configuration list for PBXProject "EasemobVoice_iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = E39B687B28C5948C0083D0F9;
+			productRefGroup = E39B688528C5948C0083D0F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E39B688328C5948C0083D0F9 /* EasemobVoice_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E39B688228C5948C0083D0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39B689428C5948D0083D0F9 /* LaunchScreen.storyboard in Resources */,
+				056A2DBD28E2D4700030811A /* InfoPlist.strings in Resources */,
+				05688C3C28D86F2400B39C22 /* Localizable.strings in Resources */,
+				05688C2828D857B000B39C22 /* rocket.svga in Resources */,
+				05D8C3E228D0697900820391 /* RobotoNembersVF.ttf in Resources */,
+				E39B68C328C5A4D30083D0F9 /* arrow.svga in Resources */,
+				E39B689128C5948D0083D0F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED029508C748CBB94572069 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasemobVoice_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7419CC4E20410EE70FBFF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasemobVoice_iOS/Pods-EasemobVoice_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasemobVoice_iOS/Pods-EasemobVoice_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasemobVoice_iOS/Pods-EasemobVoice_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E39B688028C5948C0083D0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056321CD291D050B00F854B5 /* VRRoomAvatarCell.swift in Sources */,
+				05D8C44528D06E4E00820391 /* VoiceRoomSwitchBar.swift in Sources */,
+				05D2CBB728F4120800E9D7DB /* Throttle.swift in Sources */,
+				056321B4291D01D400F854B5 /* HorizontalCardsView.swift in Sources */,
+				E3C7109628F8053A00C9091B /* UIColor+extension.swift in Sources */,
+				056321BD291D01D400F854B5 /* VRCreateRoomInputView.swift in Sources */,
+				05D8C44428D06E4E00820391 /* VoiceRoomPraiseEmitterView.swift in Sources */,
+				E3E8F4F028FFDB5500B97821 /* VoiceRoomHelpViewController.swift in Sources */,
+				E36BE11428C5EE7E00270D52 /* VoiceRoomChatModel.swift in Sources */,
+				056321B3291D01D400F854B5 /* VRRoomListView.swift in Sources */,
+				05D8C3E528D0699100820391 /* VoiceRoomBusinessRequest.swift in Sources */,
+				056321BA291D01D400F854B5 /* BaseNavigationView.swift in Sources */,
+				05632197291D019500F854B5 /* VoiceRoomGiftCell.swift in Sources */,
+				054AF7AE28D16864004C60A3 /* VRAllRoomsViewController.swift in Sources */,
+				056321C5291D01E800F854B5 /* VRBaseViewController.swift in Sources */,
+				05D8C44828D06E4E00820391 /* PopTip.swift in Sources */,
+				E36BE11128C5ECD500270D52 /* Notification+Presentation.swift in Sources */,
+				E39B68BD28C5A41E0083D0F9 /* AgoraChatRoomNormalRtcView.swift in Sources */,
+				056321A2291D01B700F854B5 /* VRRoomListCell.swift in Sources */,
+				054AF7B028D16876004C60A3 /* VRNormalRoomsViewController.swift in Sources */,
+				E36BE12428C5EF2A00270D52 /* VoiceRoomGiftView.swift in Sources */,
+				05D8C45628D06EA000820391 /* VRVerifyCodeTextView.swift in Sources */,
+				056321BC291D01D400F854B5 /* VRRoomCreateView.swift in Sources */,
+				05D8C3D728D068D100820391 /* VoiceRoomApplyUsersViewController.swift in Sources */,
+				0563219B291D019500F854B5 /* VoiceRoomApplyCell.swift in Sources */,
+				E39B68BC28C5A41E0083D0F9 /* AgoraChatRoom3DMoveUserView.swift in Sources */,
+				E39B68B628C5A41E0083D0F9 /* AgoraChatRoomBaseAlienCollectionViewCell.swift in Sources */,
+				056321B8291D01D400F854B5 /* HorizontalCardView.swift in Sources */,
+				E36BE10528C5ECD500270D52 /* PresentationController.swift in Sources */,
+				E39B68B928C5A41E0083D0F9 /* AgoraChatRoom3DRtcView.swift in Sources */,
+				05D8C45528D06EA000820391 /* VRVerifyCodeView.swift in Sources */,
+				05D8C3D628D068D100820391 /* VoiceRoomGiftersViewController.swift in Sources */,
+				E36BE16728C605F100270D52 /* VoiceRoomRequest.swift in Sources */,
+				E36BE10828C5ECD500270D52 /* UIViewController+Presentation.swift in Sources */,
+				056321B9291D01D400F854B5 /* VRUserInfoView.swift in Sources */,
+				E39B68BB28C5A41E0083D0F9 /* AgoraChatRoomBaseRtcUserView.swift in Sources */,
+				E346372728D9AE8500026F85 /* VMConfirmView.swift in Sources */,
+				E36BE18C28C8426000270D52 /* VMManagerView.swift in Sources */,
+				056321B2291D01D400F854B5 /* VRSoundTypeCard.swift in Sources */,
+				E36BE11528C5EE7E00270D52 /* VoiceRoomGiftEntity.swift in Sources */,
+				E36BE19F28C9E54A00270D52 /* VMEQSettingView.swift in Sources */,
+				E36BE10928C5ECD500270D52 /* PresentationAnimation.swift in Sources */,
+				05D8C44D28D06E4E00820391 /* VoiceRoomUserView.swift in Sources */,
+				E36BE10D28C5ECD500270D52 /* PresentedViewType.swift in Sources */,
+				E36BE10028C5ECD500270D52 /* UIViewToastExtension.swift in Sources */,
+				E36BE19D28C9C47900270D52 /* VMPresentView.swift in Sources */,
+				056321A4291D01B700F854B5 /* VRCreateRoomCardCell.swift in Sources */,
+				05D8C44328D06E4E00820391 /* VoiceRoomPopView.swift in Sources */,
+				E36BE19628C8780A00270D52 /* VMANISSetTableViewCell.swift in Sources */,
+				056321A1291D01B700F854B5 /* VRSoundEffectsCell.swift in Sources */,
+				05ACF8E4291B3E8200EE2B92 /* LoginViewController.swift in Sources */,
+				05D8C45428D06EA000820391 /* VoiceRoomPasswordAlert.swift in Sources */,
+				05D8C44728D06E4E00820391 /* VoiceRoomApplyAlert.swift in Sources */,
+				E36BE10C28C5ECD500270D52 /* CrossDissolveAnimation.swift in Sources */,
+				E3E8F56D2907CD9600B97821 /* VMMuteView.swift in Sources */,
+				056321C4291D01E800F854B5 /* VRSoundEffectsViewController.swift in Sources */,
+				E36BE10B28C5ECD500270D52 /* CrossZoomAnimation.swift in Sources */,
+				05D8C3E628D0699100820391 /* VoiceRoomBusinessApi.swift in Sources */,
+				056321A3291D01B700F854B5 /* HorizontalCardCell.swift in Sources */,
+				05632194291D019500F854B5 /* VoiceRoomChatBarCell.swift in Sources */,
+				E36BE11028C5ECD500270D52 /* PresentationSegue.swift in Sources */,
+				0527762528F6BB7700F11006 /* VoiceRoomEndLiveAlert.swift in Sources */,
+				05D8C44A28D06E4E00820391 /* VoiceRoomEmojiListView.swift in Sources */,
+				05D8C3D528D068D100820391 /* VoiceRoomAudiencesViewController.swift in Sources */,
+				0563219A291D019500F854B5 /* VoiceRoomSendGiftCell.swift in Sources */,
+				E36BE18A28C83CF100270D52 /* VMUpstageView.swift in Sources */,
+				05632152291C906500F854B5 /* VoiceRoomViewController+Mic.swift in Sources */,
+				E36BE10A28C5ECD500270D52 /* FlipHorizontalAnimation.swift in Sources */,
+				E36BE18828C8390000270D52 /* VMUserListView.swift in Sources */,
+				E39B688828C5948C0083D0F9 /* AppDelegate.swift in Sources */,
+				E36BE10628C5ECD500270D52 /* LanguageManager.swift in Sources */,
+				05D8C3D828D068D100820391 /* VoiceRoomInviteUsersController.swift in Sources */,
+				E36BE1A128CAE4A300270D52 /* VMSoundSelTableViewCell.swift in Sources */,
+				05632199291D019500F854B5 /* VoiceRoomGifterCell.swift in Sources */,
+				E36BE0FF28C5ECD500270D52 /* ResourceBundleExtension.swift in Sources */,
+				E30E5B4028FD766E00F94C71 /* String + Extension.swift in Sources */,
+				05632195291D019500F854B5 /* VoiceRoomChatCell.swift in Sources */,
+				E36BE19028C876FC00270D52 /* VMSwitchTableViewCell.swift in Sources */,
+				05BC75BB28F55D8F00DD8E3B /* VoiceRoomViewController+IM.swift in Sources */,
+				053F14B328D5B65600350D7A /* VoiceRoomDisclaimerView.swift in Sources */,
+				E36BE10128C5ECD500270D52 /* UIImageBundleExtension.swift in Sources */,
+				E346371F28D84DA700026F85 /* VRAvatarChooseViewController.swift in Sources */,
+				E39B68B828C5A41E0083D0F9 /* AgoraChatRoomBaseUserCollectionViewCell.swift in Sources */,
+				E36BE18628C7305400270D52 /* VMNoticeView.swift in Sources */,
+				05D8C44928D06E4E00820391 /* PopTip+Transitions.swift in Sources */,
+				E36BE0E228C5E74500270D52 /* AgoraSceneConfig.swift in Sources */,
+				E36BE10428C5ECD500270D52 /* VRRoomMenuBarEntity.swift in Sources */,
+				056321CC291D026200F854B5 /* VoiceRoomIMManager.swift in Sources */,
+				056321C6291D01E800F854B5 /* VRRoomsViewController.swift in Sources */,
+				05D8C45328D06EA000820391 /* VRVerifyCodeNumberView.swift in Sources */,
+				E346372328D84E5E00026F85 /* VoiceRoomAudiencesEntity.swift in Sources */,
+				056321B6291D01D400F854B5 /* VRRoomMenuBar.swift in Sources */,
+				E36BE10E28C5ECD500270D52 /* PresentationEnums.swift in Sources */,
+				E36BE19828C8781B00270D52 /* VMANISSUPTableViewCell.swift in Sources */,
+				05632198291D019500F854B5 /* VoiceRoomAudienceCell.swift in Sources */,
+				E36BE18428C7242300270D52 /* VoiceRoomViewController.swift in Sources */,
+				05D8C44228D06E4E00820391 /* PopTip+Draw.swift in Sources */,
+				E36BE16F28C6EACA00270D52 /* LaunchViewController.swift in Sources */,
+				E39B68BA28C5A41E0083D0F9 /* AgoraChatRoom3DUserCollectionViewCell.swift in Sources */,
+				E36BE19428C8778600270D52 /* VMNorSetTableViewCell.swift in Sources */,
+				E36BE19228C8771100270D52 /* VMSliderTableViewCell.swift in Sources */,
+				E36BE12528C5EF2A00270D52 /* VoiceRoomChatView.swift in Sources */,
+				056321B7291D01D400F854B5 /* VREmptyView.swift in Sources */,
+				E36BE0FE28C5ECD500270D52 /* UIButtonLayoutExtension.swift in Sources */,
+				05ACF8EB291B8F6F00EE2B92 /* GCDTimer.swift in Sources */,
+				E39B68B728C5A41E0083D0F9 /* AgoraMicVolView.swift in Sources */,
+				05D8C44C28D06E4E00820391 /* VoiceRoomInputBar.swift in Sources */,
+				05D8C45728D06EA000820391 /* VoiceRoomEmojiManager.swift in Sources */,
+				E36BE10228C5ECD500270D52 /* VRUser.swift in Sources */,
+				E36BE15928C5F49600270D52 /* ASRTCKit.swift in Sources */,
+				E36BE12228C5EF2A00270D52 /* VoiceRoomAlertContainer.swift in Sources */,
+				056321A5291D01B700F854B5 /* VRRoomMenuBarCell.swift in Sources */,
+				056321B5291D01D400F854B5 /* VRCreateRoomView.swift in Sources */,
+				E3682BEE28F2B09D00DA21FD /* VMSoundView.swift in Sources */,
+				E3682BF028F54E6D00DA21FD /* UIButton+Extension.swift in Sources */,
+				05BC75BD28F55E5E00DD8E3B /* VoiceRoomViewController+ChatBar.swift in Sources */,
+				E36BE11D28C5EF1700270D52 /* VoiceRoomAlertViewController.swift in Sources */,
+				056321BB291D01D400F854B5 /* VRSoundEffectsList.swift in Sources */,
+				E39B68C628C5A5200083D0F9 /* SwiftyFitSize.swift in Sources */,
+				056321C3291D01E800F854B5 /* VRCreateRoomViewController.swift in Sources */,
+				E36BE12328C5EF2A00270D52 /* VoiceRoomChatBar.swift in Sources */,
+				E36BE18E28C8737200270D52 /* VMAudioSettingView.swift in Sources */,
+				05D8C44628D06E4E00820391 /* VoiceRoomPageContainer.swift in Sources */,
+				056321C7291D01E800F854B5 /* VRUserProfileViewController.swift in Sources */,
+				E39B68C028C5A4770083D0F9 /* AgoraChatRoomHeaderView.swift in Sources */,
+				054AF7B228D16892004C60A3 /* VRSpatialSoundViewController.swift in Sources */,
+				05632196291D019500F854B5 /* VoiceRoomInviteCell.swift in Sources */,
+				05D8C44B28D06E4E00820391 /* VoiceRoomGiftsView.swift in Sources */,
+				E36BE10328C5ECD500270D52 /* VRRoomEntity.swift in Sources */,
+				053F14B528D5B9AD00350D7A /* VRDisclaimerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05688C3E28D86F2400B39C22 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05688C3D28D86F2400B39C22 /* en */,
+				05688C3F28D86F2800B39C22 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		056A2DBB28E2D4700030811A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056A2DBC28E2D4700030811A /* en */,
+				056A2DBE28E2D47A0030811A /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E39B689228C5948D0083D0F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E39B689328C5948D0083D0F9 /* Base */,
+				05688C3928D86F1300B39C22 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E39B689628C5948D0083D0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E39B689728C5948D0083D0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E39B689928C5948D0083D0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D579540B42DE5E5B832012EB /* Pods-EasemobVoice_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = JC854K845H;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasemobVoice_iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EaseChatRoom;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Ease Chat Demo want to  mic access,when you enter voice chat room";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.demo.voiceChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E39B689A28C5948D0083D0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588069FEBC094D7D96375C8B /* Pods-EasemobVoice_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = JC854K845H;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasemobVoice_iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EaseChatRoom;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Ease Chat Demo want to  mic access,when you enter voice chat room";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.demo.voiceChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E39B687F28C5948C0083D0F9 /* Build configuration list for PBXProject "EasemobVoice_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39B689628C5948D0083D0F9 /* Debug */,
+				E39B689728C5948D0083D0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E39B689828C5948D0083D0F9 /* Build configuration list for PBXNativeTarget "EasemobVoice_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39B689928C5948D0083D0F9 /* Debug */,
+				E39B689A28C5948D0083D0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E39B687C28C5948C0083D0F9 /* Project object */;
+}

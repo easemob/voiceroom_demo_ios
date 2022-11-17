@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  EasemobVoice_iOS
+
+  Created by 朱继超 on 2022/9/20.
+  
+*/
+CFBundleDisplayName = "环信语聊";
+NSMicrophoneUsageDescription = "当您进入语音聊天室时，环信语聊想要申请麦克风访问";
