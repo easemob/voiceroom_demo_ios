@@ -106,6 +106,8 @@
 
 下表提供环信 IM SDK 和 Agora Audio SDK 的基本 API 参考。
 
+![server api 参考](.\redoc-static.html)
+
 ### 初始设置
 
 加入语聊房前，进行[环信 IM SDK 初始化](http://docs-im-beta.easemob.com/document/android/quickstart.html#%E5%AE%9E%E7%8E%B0%E5%8D%95%E8%81%8A)和
