@@ -106,7 +106,7 @@
 
 下表提供环信 IM SDK 和 Agora Audio SDK 的基本 API 参考。
 
-[Server Api文档，静态HTML需下载后查看](https://github.com/easemob/voiceroom_demo_ios/blob/dev/redoc-static.html)
+[Server Api文档，静态HTML需下载后查看](https://github.com/easemob/voiceroom_demo_ios/blob/dev/redoc-static.html.zip)
 
 [Demo对照Server Api枚举实现](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)
 
