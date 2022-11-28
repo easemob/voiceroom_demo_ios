@@ -237,7 +237,7 @@
 
 #### 最佳音效
 
-调用[`setAudioEffectPreset`](https://docs.agora.io/cn/voice-call-4.x/API%20Reference/ios_ng/API/class_irtcengine.html#ariaid-title129) 方法，在不改变原声的性别特征的前提下，设置人声音效。设置音效后，频道内所有用户都能听到该效果。
+调用[`setAudioEffectPreset`](https://docs.agora.io/cn/voice-call-4.x/API%20Reference/ios_ng/API/class_irtcengine.html#ariaid-title129) 
 ```
     rtcKit.setChannelProfile(.liveBroadcasting)
     rtcKit.setAudioProfile(.musicHighQuality)
