@@ -106,11 +106,11 @@
 
 下表提供环信 IM SDK 和 Agora Audio SDK 的基本 API 参考。
 
-[server api 参考，HTML需下载后查看](https://github.com/easemob/voiceroom_demo_ios/blob/dev/redoc-static.html)
+[Server Api文档，静态HTML需下载后查看](https://github.com/easemob/voiceroom_demo_ios/blob/dev/redoc-static.html)
 
-[sdk对照server api 参考](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)
+[Demo对照Server Api枚举实现](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)
 
-房间管理 API 如下表所示：
+### 房间管理 API 如下表所示：
 
 |  API              | 实现功能                |
 | :-------- | :-------- | 
@@ -125,7 +125,7 @@
 | [VoiceRoomBusinessApi.leaveRoom](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)          | 离开房间。|
 | [VoiceRoomBusinessApi.kickUser](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)           | 踢出房间。|
 
-麦位管理 API 如下表所示：
+### 麦位管理 API 如下表所示：
 
 |  API               | 实现功能                  |
 | :-------- | :-------- | 
@@ -148,7 +148,7 @@
 | [VoiceRoomBusinessApi.lockMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)                | 锁定麦位。|
 | [VoiceRoomBusinessApi.unlockMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)              | 解锁麦位。|
 
-礼物榜单 API 如下表所示：
+### 礼物榜单 API 如下表所示：
 
 |   API              | 实现功能                |
 | :-------- | :-------- | 
@@ -157,7 +157,7 @@
 
 [IMSDK HyphenateChat封装回调api](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/VoiceRoomIMKit/VoiceRoomIMManager.swift)
 
-VoiceRoomIMManager.swift API 如下表所示：
+### VoiceRoomIMManager.swift(对HyphenateChat IMSDK进行封装) API 如下表所示：
 
 |   API              | 实现功能                |
 | :-------- | :-------- | 
@@ -166,7 +166,14 @@ VoiceRoomIMManager.swift API 如下表所示：
 | [VoiceRoomIMManager.addChatRoomListener](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomIMManager.swift)   | 添加IM消息以及聊天室回调监听。|
 | [VoiceRoomIMManager.removeListener](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomIMManager.swift)                | 移除IM消息以及聊天室回调监听。|
 
-[Agora_audio iOS api封装回调](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/AgoraRtcKit/ASRTCKit.swift)
+### Agora_audio iOS sdk api封装回调
+
+|   API              | 实现功能                |
+| :-------- | :-------- | 
+| [AgoraRtcEngineKit.sharedEngine(withAppId: AgoraConfig.rtcId, delegate: nil)](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/AgoraRtcKit/ASRTCKit.swift)   | 初始化RTC。|
+| [ASRTCKit.joinVoicRoomWith](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/AgoraRtcKit/ASRTCKit.swift)                | 加入RTC channel。|
+| [ASRTCKit.setClientRole](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/AgoraRtcKit/ASRTCKit.swift)   | 设置RTC角色。|
+| [ASRTCKit.leaveChannel](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/AgoraRtcKit/ASRTCKit.swift)         | 离开RTC channel。|
 
 ### 初始设置
 
