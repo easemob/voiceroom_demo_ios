@@ -110,7 +110,9 @@
 
 [sdk对照server api 参考](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)
 
-[IM封装回调api](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/VoiceRoomIMKit/VoiceRoomIMManager.swift)
+[IMSDK HyphenateChat封装回调api](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/VoiceRoomIMKit/VoiceRoomIMManager.swift)
+
+[Agora_audio iOS api封装回调](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/AgoraRtcKit/ASRTCKit.swift)
 
 ### 初始设置
 
