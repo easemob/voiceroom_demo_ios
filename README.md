@@ -155,7 +155,6 @@
 | [VoiceRoomBusinessApi.fetchGiftContribute](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)   | 获取赠送礼物榜单。|
 | [VoiceRoomBusinessApi.giftTo](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)                | 赠送礼物。|
 
-[IMSDK HyphenateChat封装回调api](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/VoiceRoomIMKit/VoiceRoomIMManager.swift)
 
 ### VoiceRoomIMManager.swift(对HyphenateChat IMSDK进行封装) API 如下表所示：
 
