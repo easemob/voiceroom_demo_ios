@@ -220,7 +220,7 @@
 
 ### 麦位相关
 
-请在 `VoiceRoomViewController+Mic` 文件查看相关方法。
+请在 [VoiceRoomViewController+Mic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Business/VoiceChat2.0/Controller/VoiceRoomViewController%2BMic.swift) 文件查看相关方法。
 
 ### 音频相关
 
