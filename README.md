@@ -108,6 +108,10 @@
 
 [server api 参考](https://github.com/easemob/voiceroom_demo_ios/blob/dev/redoc-static.html)
 
+[sdk对照server api 参考](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)
+
+[IM封装回调api](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/VoiceRoomIMKit/VoiceRoomIMManager.swift)
+
 ### 初始设置
 
 加入语聊房前，进行[环信 IM SDK 初始化](http://docs-im-beta.easemob.com/document/android/quickstart.html#%E5%AE%9E%E7%8E%B0%E5%8D%95%E8%81%8A)和
