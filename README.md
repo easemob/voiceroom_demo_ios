@@ -99,14 +99,14 @@
 
 | 产品      | SDK 下载   | 集成文档      |
 | :-------- | :----- | :-------- |
-| 环信即时通讯 IM SDK | 环信即时通讯 IM SDK 3.9.8 | [发送和接收消息](http://docs-im-beta.easemob.com/document/ios/message_send_receive.html) |
-| Agora Audio SDK | 声网 RTM SDK 4.0.1 | [实现音频通话](https://docs.agora.io/cn/voice-call-4.x/start_call_audio_ios_ng?platform=iOS) ? |
+| 环信即时通讯 IM SDK | 环信即时通讯 IM SDK 大于等于 3.9.8 | [发送和接收消息](http://docs-im-beta.easemob.com/document/ios/message_send_receive.html) |
+| Agora Audio SDK | 声网 RTM SDK 4.0.1 | [实现音频通话](https://docs.agora.io/cn/voice-call-4.x/start_call_audio_ios_ng?platform=iOS)  |
 
 ## 基本 API 参考
 
 下表提供环信 IM SDK 和 Agora Audio SDK 的基本 API 参考。
 
-[server api 参考](https://github.com/easemob/voiceroom_demo_ios/blob/dev/redoc-static.html)
+[server api 参考，HTML需下载后查看](https://github.com/easemob/voiceroom_demo_ios/blob/dev/redoc-static.html)
 
 [sdk对照server api 参考](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)
 
