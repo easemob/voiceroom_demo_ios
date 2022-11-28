@@ -110,7 +110,61 @@
 
 [sdk对照server api 参考](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)
 
+房间管理 API 如下表所示：
+
+|  API              | 实现功能                |
+| :-------- | :-------- | 
+| [VoiceRoomBusinessApi.fetchRoomInfo](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)      | 获取指定语聊房的信息。 |
+| [VoiceRoomBusinessApi.createRoom](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)          | 创建房间。   |
+| [VoiceRoomBusinessApi.deleteRoom](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)         | 根据 ID 删除房间。|
+| [VoiceRoomBusinessApi.modifyRoomInfo](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)      | 修改语聊房信息。|
+| [VoiceRoomBusinessApi.fetchRoomList](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)       | 获取房间列表。|
+| [VoiceRoomBusinessApi.fetchRoomMembers](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)   | 获取房间内的成员。|
+| [VoiceRoomBusinessApi.joinRoom](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)           | 加入房间。|
+| [VoiceRoomBusinessApi.validatePassWord](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)   | 校验密码。|
+| [VoiceRoomBusinessApi.leaveRoom](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)          | 离开房间。|
+| [VoiceRoomBusinessApi.kickUser](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)           | 踢出房间。|
+
+麦位管理 API 如下表所示：
+
+|  API               | 实现功能                  |
+| :-------- | :-------- | 
+| [VoiceRoomBusinessApi.fetchMicsInfo](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)           | 获取麦位信息。|
+| [VoiceRoomBusinessApi.fetchApplyMembers](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)      | 获取上麦申请列表。|
+| [VoiceRoomBusinessApi.inviteUserToMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)        | 邀请上麦。|
+| [VoiceRoomBusinessApi.agreeInvite](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)            | 用户同意上麦邀请。|
+| [VoiceRoomBusinessApi.refuseInvite](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)           | 用户拒绝上麦邀请。|
+| [VoiceRoomBusinessApi.submitApply](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)            | 提交上麦申请。|
+| [VoiceRoomBusinessApi.cancelApply](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)            | 撤销上麦申请。|
+| [VoiceRoomBusinessApi.refuseApply](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)            | 拒绝上麦申请。|
+| [VoiceRoomBusinessApi.agreeApply](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)             | 同意上麦申请。|
+| [VoiceRoomBusinessApi.closeMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)                | 关麦。|    
+| [VoiceRoomBusinessApi.cancelCloseMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)         | 开麦。|
+| [VoiceRoomBusinessApi.leaveMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)               | 主动下麦。|
+| [VoiceRoomBusinessApi.muteMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)                 | 封禁指定麦位。|
+| [VoiceRoomBusinessApi.unmuteMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)              | 解禁指定麦位。|
+| [VoiceRoomBusinessApi.exchangeMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)            | 换麦。|
+| [VoiceRoomBusinessApi.kickMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)                 | 踢用户下麦。|
+| [VoiceRoomBusinessApi.lockMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)                | 锁定麦位。|
+| [VoiceRoomBusinessApi.unlockMic](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)              | 解锁麦位。|
+
+礼物榜单 API 如下表所示：
+
+|   API              | 实现功能                |
+| :-------- | :-------- | 
+| [VoiceRoomBusinessApi.fetchGiftContribute](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)   | 获取赠送礼物榜单。|
+| [VoiceRoomBusinessApi.giftTo](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomBusinessApi.swift)                | 赠送礼物。|
+
 [IMSDK HyphenateChat封装回调api](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/VoiceRoomIMKit/VoiceRoomIMManager.swift)
+
+VoiceRoomIMManager.swift API 如下表所示：
+
+|   API              | 实现功能                |
+| :-------- | :-------- | 
+| [VoiceRoomIMManager.configIM](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomIMManager.swift)   | 初始化IM。|
+| [VoiceRoomIMManager.loginIM](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomIMManager.swift)                | 登录IM。|
+| [VoiceRoomIMManager.addChatRoomListener](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomIMManager.swift)   | 添加IM消息以及聊天室回调监听。|
+| [VoiceRoomIMManager.removeListener](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Common/Network/VoiceRoomIMManager.swift)                | 移除IM消息以及聊天室回调监听。|
 
 [Agora_audio iOS api封装回调](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Compoment/AgoraRtcKit/ASRTCKit.swift)
 
@@ -162,7 +216,7 @@
 
 请在 `VoiceRoomViewController+Mic` 文件查看相关方法。
 
-### 音频相关（声网同事确认）
+### 音频相关
 
 主播调用以下方法设置音频流：
 
@@ -173,19 +227,53 @@
 | [`adjustRecordingSignalVolume`](https://docs.agora.io/cn/voice-call-4.x/API Reference/ios_ng/API/class_irtcengine.html#api_adjustrecordingsignalvolume) | 调节人声音量。                 |
 
 
-### 附加功能（声网同事确认）
+### 附加功能
 
-#### 人声音效
+#### 最佳音效
 
-调用 [`setAudioEffectPreset`](https://docs.agora.io/cn/voice-call-4.x/API Reference/ios_ng/API/class_irtcengine.html#api_setaudioeffectpreset) 方法，在不改变原声的性别特征的前提下，设置人声音效。设置音效后，频道内所有用户都能听到该效果。详见[设置人声效果](https://docs.agora.io/cn/voice-call-4.x/voice_changer_apple_ng?platform=iOS)。
+调用[`setAudioEffectPreset`](https://docs.agora.io/cn/voice-call-4.x/API%20Reference/ios_ng/API/class_irtcengine.html#ariaid-title129) 方法，在不改变原声的性别特征的前提下，设置人声音效。设置音效后，频道内所有用户都能听到该效果。
+```
+    rtcKit.setChannelProfile(.liveBroadcasting)
+    rtcKit.setAudioProfile(.musicHighQuality)
+    rtcKit.setAudioScenario(.gameStreaming)
+```
 
-#### 耳返
+#### AI降噪
 
 调用 [`enableInEarMonitoring [2/2\]`](https://docs.agora.io/cn/voice-call-4.x/API Reference/ios_ng/API/class_irtcengine.html#api_enableinearmonitoring2) 方法开启主播的耳返功能。
+```
+/*
+* 开启/关闭 AI降噪
+* @param
+* Qreturn 开启/关闭回声消除的结果
+*/
+public func setAINS(with level: AINS_STATE) {
+        switch level {
+        case .high:
+        rtcKit.setParameters("{\"che.audio.ains_mode\":2}")
+        rtcKit.setParameters("{\"che.audio.nsng.lowerBound\":10}")
+        rtcKit.setParameters("{\"che.audio.nsng.lowerMask\":10}")
+        rtcKit.setParameters("{\"che.audio.nsng.statisticalbound\":0}")
+        rtcKit.setParameters("{\"che.audio.nsng.finallowermask\":8}")
+        rtcKit.setParameters("{\"che.audio.nsng.enhfactorstastical\":200}")
+        case .mid:
+        rtcKit.setParameters("{\"che.audio.ains_mode\":2}")
+        rtcKit.setParameters("{\"che.audio.nsng.lowerBound\":80}")
+        rtcKit.setParameters("{\"che.audio.nsng.lowerMask\":50}")
+        rtcKit.setParameters("{\"che.audio.nsng.statisticalbound\":5}")
+        rtcKit.setParameters("{\"che.audio.nsng.finallowermask\":30}")
+        rtcKit.setParameters("{\"che.audio.nsng.enhfactorstastical\":200}")
+        case .off:
+        rtcKit.setParameters("{\"che.audio.ains_mode\":0}")
+        rtcKit.setParameters("{\"che.audio.nsng.lowerBound\":80}")
+        rtcKit.setParameters("{\"che.audio.nsng.lowerMask\":50}")
+        rtcKit.setParameters("{\"che.audio.nsng.statisticalbound\":5}")
+        rtcKit.setParameters("{\"che.audio.nsng.finallowermask\":30}")
+        rtcKit.setParameters("{\"che.audio.nsng.enhfactorstastical\":200}")
+    }
+}
+```
 
-#### 混音及音效
-
-加入频道后，调用 `startAudioMixing` 方法，可以播放音乐文件，实现播放背景音乐的功能。调用 `playEffect` 方法，播放音效文件，实现鼓掌、欢呼、尖叫等氛围音效果。
 
 
 
