@@ -246,7 +246,7 @@
 
 #### AI降噪
 
-调用 [`enableInEarMonitoring [2/2\]`](https://docs.agora.io/cn/voice-call-4.x/API Reference/ios_ng/API/class_irtcengine.html#api_enableinearmonitoring2) 方法开启主播的耳返功能。
+调用 [`enableInEarMonitoring [2/2\]`](https://docs.agora.io/cn/voice-call-4.x/API Reference/ios_ng/API/class_irtcengine.html#api_enableinearmonitoring2) 方法开启主播的AI降噪功能。
 ```
 /*
 * 开启/关闭 AI降噪
