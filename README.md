@@ -214,9 +214,9 @@
     }
 ```
 
-环信 IM 相关回调以及处理请在 `VoiceRoomViewController+IM` 文件中查看相关方法。
+环信 IM 相关回调以及处理请在 [VoiceRoomViewController+IM](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Business/VoiceChat2.0/Controller/VoiceRoomViewController%2BIM.swift) 文件中查看相关方法。
 
-送礼物及其底部时间回调请在 [`VoiceRoomViewController+ChatBar`](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Business/VoiceChat2.0/Controller/VoiceRoomViewController%2BChatBar.swift) 文件中查看相关方法。
+送礼物及其底部时间回调请在 [VoiceRoomViewController+ChatBar](https://github.com/easemob/voiceroom_demo_ios/blob/dev/EasemobVoice_iOS/EasemobVoice_iOS/Business/VoiceChat2.0/Controller/VoiceRoomViewController%2BChatBar.swift) 文件中查看相关方法。
 
 ### 麦位相关
 
