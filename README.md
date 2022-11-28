@@ -99,7 +99,7 @@
 
 | 产品      | SDK 下载   | 集成文档      |
 | :-------- | :----- | :-------- |
-| 环信即时通讯 IM SDK | 环信即时通讯 IM SDK 大于等于 3.9.8 | [发送和接收消息](http://docs-im-beta.easemob.com/document/ios/message_send_receive.html) |
+| 环信即时通讯 IM SDK | 环信即时通讯 IM SDK 大于等于 3.9.8 | [发送、接收消息、聊天室属性KV](http://docs-im-beta.easemob.com/document/ios/message_send_receive.html) |
 | Agora Audio SDK | 声网 RTM SDK 4.0.1 | [实现音频通话](https://docs.agora.io/cn/voice-call-4.x/start_call_audio_ios_ng?platform=iOS)  |
 
 ## 基本 API 参考
