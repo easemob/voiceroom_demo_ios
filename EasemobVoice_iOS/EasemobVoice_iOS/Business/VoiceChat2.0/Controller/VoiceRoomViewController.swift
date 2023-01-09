@@ -143,10 +143,11 @@ extension VoiceRoomViewController {
         var IMJoinSuccess: Bool = false
         
         let VMGroup = DispatchGroup()
-        let VMQueue = DispatchQueue(label: "com.agora.vm.www")
+        let rtcQueue = DispatchQueue(label: "com.agora.rtc.www")
+        let imQueue = DispatchQueue(label: "com.agora.rtc.www")
         
         VMGroup.enter()
-        VMQueue.async {[weak self] in
+        imQueue.async {[weak self] in
             VoiceRoomIMManager.shared?.joinedChatRoom(roomId: roomId, completion: {[weak self] room, error in
                 guard let `self` = self else { return }
                 if error == nil {
@@ -163,12 +164,12 @@ extension VoiceRoomViewController {
         }
         
         VMGroup.enter()
-        VMQueue.async {[weak self] in
+        rtcQueue.async {[weak self] in
             rtcJoinSuccess = self?.rtckit.joinVoicRoomWith(with: "\(channel_id)", token: self?.token ?? "", rtcUid: Int(rtcUid) ?? 0, type: self?.vmType ?? .social) == 0
             VMGroup.leave()
         }
         
-        VMGroup.notify(queue: VMQueue){[weak self] in
+        VMGroup.notify(queue: .main){[weak self] in
             DispatchQueue.main.async {
                 let joinSuccess = rtcJoinSuccess && IMJoinSuccess
                 //上传登陆信息到服务器
