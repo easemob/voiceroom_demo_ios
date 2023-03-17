@@ -224,6 +224,8 @@
 
 ### 音频相关
 
+配置声网音频sdk初始化AppId AgoraRtcEngineKit.sharedEngine(withAppId: AgoraConfig.rtcId, delegate: nil)
+
 主播调用以下方法设置音频流：
 
 | API                        | 实现功能        |
