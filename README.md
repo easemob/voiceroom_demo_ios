@@ -3,7 +3,7 @@
 
 ## 场景描述
 
-本文介绍如何通过环信 IM SDK 和 Agora Audio SDK 在你的 iOS 项目里实现语聊房的主要功能。
+本文介绍如何通过环信 IM SDK 和 Agora Audio SDK 在你的 iOS 项目里实现语聊房的主要功能。注意本demo需要结合服务端源码部署到用户自己服务器上使用 https://github.com/easemob/easemob-voiceroom
 
 ## 技术原理
 
