@@ -5,6 +5,9 @@
 
 本文介绍如何通过环信 IM SDK 和 Agora Audio SDK 在你的 iOS 项目里实现语聊房的主要功能。注意本demo需要结合服务端源码部署到用户自己服务器上使用 https://github.com/easemob/easemob-voiceroom
 
+## 编译问题
+遇到文件svga.pbobjc m文件中报错，找不到OSAtomicCompareAndSwapPtrBarrier函数。
+解决方式 显示的在文件中声明此函数bool    OSAtomicCompareAndSwapPtrBarrier( void *__oldValue, void *__newValue, void * volatile *__theValue );  或者 导入 #import <libkern/OSAtomic.h>即可解决
 ## 技术原理
 
 ### 房间管理
