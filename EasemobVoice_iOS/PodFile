@@ -11,5 +11,5 @@ target 'EasemobVoice_iOS' do
   pod 'KakaJSON'
   pod 'HyphenateChat','3.9.8'
   pod 'AgoraAudio_iOS', '4.0.1'
-  pod 'ProgressHUD'
+  pod 'ProgressHUD','13.8.0'
 end
