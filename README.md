@@ -97,6 +97,7 @@
 - 有效的环信 IM 开发者账号和 App key，详见[环信即时通讯云控制台](https://console.easemob.com/user/login)。
 - [有效的 Agora 项目，获取项目的 App ID 以及一个 RTC Token，实现语音通话。](https://docs.agora.io/cn/voice-call-4.x/start_call_audio_ios_ng?platform=iOS)。
 - 如果你的网络环境部署了防火墙，请联系环信技术支持设置白名单。
+- 在Appdelegate中找到appkey配置环信appkey，VoiceRoomRequest类中找到host配置服务器地址，在AgoraSceneConfig中找到appid等配置，即可运行。
 
 ## 项目配置
 
